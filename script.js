@@ -6,7 +6,7 @@ const gridContainer = document.querySelector("#gridContainer");
 generateBtn.addEventListener("click", () => {
   if (gridContainer.children.length >= 5) {
     const confirmed = confirm(
-      "이미지가 30개가 찼습니다. 모든 사진을 지우시겠습니까?"
+      "이미지가 5개가 찼습니다. 모든 사진을 지우시겠습니까?"
     );
     if (confirmed) gridContainer.innerHTML = ""; //이미지 모두 삭제
   } else {
